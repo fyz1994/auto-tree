@@ -10,6 +10,7 @@
     "lib",
     "umd"
   ],
+  "repository": "https://github.com/fyz1994/auto-tree",
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
