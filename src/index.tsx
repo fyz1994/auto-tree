@@ -1,7 +1,15 @@
 import * as React from 'react'
 import { Tree } from 'antd'
 
-import { InputProp } from './index.d'
+interface InputProp {
+  dataSource: any[],
+  treeType: string,
+  rootParentId: number,
+  idKey: string,
+  titleKey: string,
+  parentIdKey: string,
+  [propName: string]: any // 允许其他属性存在
+}
 /**
  * 将普通数组转化为树形结构的数组
  * @param {*} flatItems 普通数组
