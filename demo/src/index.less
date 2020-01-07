@@ -1,0 +1,32 @@
+html,body,#demo, .container{
+  height: 100%;
+}
+
+// 方案1: flex 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 方案2: 定位+transform
+// .container{
+//   position:relative; 
+
+//   .content{
+//     position:absolute;
+//     top:50%;
+//     left:50%;
+//     transform:translate(-50%,-50%);
+//   }
+// }
+
+// 方案3: text-align + inline-block
+// .container{
+//   text-align: center;
+
+//   .content{
+//     display: inline-block;
+//     text-align: left;
+//   }
+// }
