@@ -1,8 +1,5 @@
 {
   "name": "auto-tree",
-  "np": {
-    "tests": false
-  },
   "version": "0.0.0",
   "description": "auto-tree React component",
   "main": "lib/index.js",
