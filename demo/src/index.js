@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { render } from 'react-dom'
+
 import './index.less'
 
-import Example from '../../src'
+import Example from '../../src/index'
 
 const exampleDatas = [
   {
@@ -32,17 +33,15 @@ const exampleDatas = [
   },
 ]
 
-class Demo extends Component {
-  render() {
-    return (
-      <div className="container">
-        <div className="content">
-          <h1>auto-tree Demo</h1>
-          <Example dataSource={exampleDatas} />
-        </div>
+const Demo = () => {
+  return (
+    <div className="container">
+      <div className="content" >
+        <h1>auto - tree Demo </h1>
+        <Example treeType="directory" dataSource={exampleDatas} />
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 render(<Demo />, document.querySelector('#demo'))

@@ -26,12 +26,15 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
     "babel-plugin-import": "^1.13.0",
     "nwb": "0.23.x",
     "nwb-less": "^0.7.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "ts-loader": "^6.2.1"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4"
   },
   "author": "",
   "homepage": "",
